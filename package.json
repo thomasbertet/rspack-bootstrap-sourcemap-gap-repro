@@ -1,0 +1,20 @@
+{
+  "name": "rspack-bootstrap-sourcemap-gap-repro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "verify": "node verify.mjs",
+    "verify-npm": "node verify-npm.mjs"
+  },
+  "devDependencies": {
+    "@rspack/core": "2.2.3",
+    "webpack": "^5.99.0",
+    "webpack-cli": "^6.0.0"
+  },
+  "dependencies": {
+    "@jridgewell/trace-mapping": "^0.3.31",
+    "source-map": "^0.8.0"
+  }
+}
